@@ -1,0 +1,1 @@
+Example for [cxx](https://github.com/dtolnay/cxx) with `RUST_CXX_NO_EXCEPTIONS` flag.
