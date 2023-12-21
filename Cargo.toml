@@ -8,8 +8,11 @@ edition = "2021"
 [lib]
 crate-type = ["staticlib"]
 
+[features]
+no-exceptions = ["cxx/no-exceptions"]
+
 [dependencies]
-cxx = { path = "../cxx", features = ["no_exceptions"] }
+cxx = { path = "../cxx" }
 anyhow = "1"
 
 [build-dependencies]
