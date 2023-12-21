@@ -9,8 +9,8 @@ edition = "2021"
 crate-type = ["staticlib"]
 
 [dependencies]
-cxx = "1.0.111"
+cxx = { path = "../cxx", features = ["no_exceptions"] }
 anyhow = "1"
 
 [build-dependencies]
-cxx-build = "1.0.111"
+cxx-build = { path = "../cxx/gen/build" }
